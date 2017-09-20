@@ -1,0 +1,52 @@
+.cont01{
+    background: url(../images/cont01/Fondo_portadilla.png) no-repeat;
+    width: 900px;
+    height: 550px;
+    padding: 0;
+    overflow: hidden;
+}
+.menuC1{
+    width: 680px;
+    height: 540px;
+    margin: 10px 0 0 175px;
+}
+.btn01-C1{
+    background: url(../images/cont01/portadilla_btn_uno.png) no-repeat;
+    width: 586px;
+    height: 121px;
+    cursor: pointer;
+    margin: 130px 0 0 20px;
+    position: absolute;
+}
+.btn02-C1{
+    background: url(../images/cont01/portadilla_btn_dos.png) no-repeat;
+    width: 405px;
+    height: 117px;
+    cursor: pointer;
+    margin: 130px 0 0 450px;
+    position: absolute;
+}
+.btn03-C1{
+    background: url(../images/cont01/portadilla_btn_tres.png) no-repeat;
+    width: 405px;
+    height: 119px;
+    cursor: pointer;
+    margin: 280px 0 0 450px;
+    position: absolute;
+}
+.btn04-C1{
+    background: url(../images/cont01/portadilla_btn_cuatro.png) no-repeat;
+    width: 405px;
+    height: 105px;
+    cursor: pointer;
+    margin: 280px 0 0 20px;
+    position: absolute;
+}
+.btn05-C1{
+    background: url(../images/cont01/portadilla_btn_cinco.png) no-repeat;
+    width: 405px;
+    height: 105px;
+    cursor: pointer;
+    margin: 380px 0 0 300px;
+    position: absolute;
+}

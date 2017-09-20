@@ -1,0 +1,92 @@
+body{
+    overflow: hidden;
+}
+
+.botonesP1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 475px 0 0 20px;
+}
+.btnP1{
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.contP1{
+    overflow: hidden;
+    width: 824px;
+    height: 293px;
+    position: absolute;
+    margin: 100px 0 0 17px;
+}
+.btnExtras{
+    position: absolute;
+    margin: 468px 0 0 740px;
+}
+
+.botones2{
+    position: absolute;
+    margin: 120px 0 0 745px;
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+.cls{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+}
+
+
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+    /*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+.arrowPrev, .arrowNext{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+}
+.arrowPrev{
+    background: url('img/arrowP.svg') no-repeat;
+    left: 0px;
+    z-index: 100;
+    width: 30px;
+    height: 40px;
+    margin: -50px 0 0 4px;
+}
+.arrowNext{
+    background: url(img/arrowN.svg) no-repeat;
+    right: 0px;
+    width: 30px;
+    height: 40px;
+    z-index: 100;
+    margin: -50px 0 0 0px;
+}
+
+.arrowPrev.jp-disabled, .arrowNext.jp-disabled{
+    display: none;
+}
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+.pdf01{
+    position: absolute;
+    margin: 0;
+    z-index: 3;
+    margin: -50px 0 0 0;
+    right: 90px;
+}
