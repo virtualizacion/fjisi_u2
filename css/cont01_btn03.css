@@ -59,10 +59,10 @@ body{
 
 .cont_accordeon{
     position: absolute;
-    margin-top: 207px;
-    margin-left: 226px;
+    margin-top: 245px;
+    margin-left: 46px;
 }
 
 .tamClickAcc{
-    width: 50px;
+    width: 65px; /**/
 }

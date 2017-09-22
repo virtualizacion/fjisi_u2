@@ -167,7 +167,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 body {
-  font: 12px 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+  /*font: 12px 'Helvetica Neue', Helvetica, Arial, Sans-Serif;*/
   padding: 0 0 200px 0;
 }
 

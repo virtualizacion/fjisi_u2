@@ -113,7 +113,7 @@
     width: 30px;
     height: 40px;
     z-index: 100;
-    margin: 201px 376px 0 0px;
+    margin: 193px 376px 0 0px;
     transform: rotate(88deg);
 }
 
@@ -121,3 +121,7 @@
     display: none;
 }
 /*--------------------------------------------------------------*/
+.ifrm_gen{
+    /*margin-top: 93PX;*/
+    border: 0;
+}
