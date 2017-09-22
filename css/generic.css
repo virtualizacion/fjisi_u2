@@ -10,7 +10,7 @@
 .volver{
     cursor: pointer;
     float: right;
-    margin: -2px 0 0 0;
+    margin: 490px -53px 0 0;
     position: absolute;
     right: 40px;
 
@@ -70,7 +70,7 @@
 .black{
     width: 100%;
     height: 100%;
-    background: rgba(37, 48, 16, 0.95);
+    background: rgba(34, 34, 34, 0.92);
     position: absolute;
     z-index: 3;
 }
@@ -104,7 +104,8 @@
     z-index: 100;
     width: 30px;
     height: 40px;
-    margin: -50px 0 0 4px;
+    margin: -310px 0 0 448px;
+    transform: rotate(88deg);
 }
 .arrowNext{
     background: url(../images/arrowN.svg) no-repeat;
@@ -112,7 +113,8 @@
     width: 30px;
     height: 40px;
     z-index: 100;
-    margin: -50px 0 0 0px;
+    margin: 201px 376px 0 0px;
+    transform: rotate(88deg);
 }
 
 .arrowPrev.jp-disabled, .arrowNext.jp-disabled{

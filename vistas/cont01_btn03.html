@@ -1,61 +1,89 @@
 <!doctype html>
 <html lang="es">
 <head>
+
     <meta charset="utf-8">
     <title>cont01_btn03</title>
-    <!---->
+
+    <!--  -->
     <link rel="stylesheet" href="../css/style_btn.css">
     <link rel="stylesheet" href="../css/cont01_btn03.css">
+    <link rel="stylesheet" href="../css/cont01_btn03_acordeon.css">
     <link rel="stylesheet" href="../css/generic.css">
-    <!-- jQuery con helper-->
+
+    <!-- jQuery con helper -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
+    
     <script src="../js/helper_functions.js"></script>
-    <script src="../js/jPages.js"></script>
+    
+    <!--<script src="../js/bootstrap.min.js"></script>-->
+
     <script src="../js/cont01_btn03.js"></script>
+
 </head>
 
 <body class="backgroud_popup">
 
-<div id="container" class="clearfix">
+  <div id="container" class="clearfix">
 
-    <div id="content" class="defaults">
+  <div id="content" class="defaults">
 
-        <!-- item container -->
-        <div class="pgs">
-            <ul id="itemContainer">
-                <li>
-                    <div>
-                        <div class="btn1 btn_tab_s" id="BT1" data-cont-tab-s="C1" data-opacity="true"><img src="../images/cont01/Btn03/alternativas_uno.png"></div>
-                        <div class="btn2 btn_tab_s" id="BT2" data-cont-tab-s="C2" data-opacity="true"><img src="../images/cont01/Btn03/alternativas_dos.png"></div>
-                        <div class="btn3 btn_tab_s" id="BT3" data-cont-tab-s="C3" data-opacity="true"><img src="../images/cont01/Btn03/alternativas_tres.png"></div>
-                        <div class="btn4 btn_tab_s" id="BT4" data-cont-tab-s="C4" data-opacity="true"><img src="../images/cont01/Btn03/alternativas_cuatro.png"></div>
+   <!-- navigation holder -->
+    <div class="holder"></div>  
+
+    <!-- item container -->
+    <div class="pgs">
+         <ul id="itemContainer">
+            <li>
+                <div class="cont_accordeon">
+                                    
+                    <div class="acordeon_contenedor">
+                        
+                        <div class="accordeon_click">
+                            <img class="tamClickAcc" src="../images/cont01/Btn03/acClick1.jpg">  
+                        </div>
+                        <div class="accordeon_contenido">
+                            <img class="info" src="../images/cont01/Btn03/acCont-09.jpg">
+                        </div>
+
+                        <div class="accordeon_click">
+                            <img class="tamClickAcc" src="../images/cont01/Btn03/acClick2.jpg">
+                        </div>
+                        <div class="accordeon_contenido">
+                            <img class="info" src="../images/cont01/Btn03/acCont-10.jpg">
+                        </div>
+
+                        <div class="accordeon_click">
+                            <img class="tamClickAcc" src="../images/cont01/Btn03/acClick3.jpg">
+                        </div>
+                        <div class="accordeon_contenido">
+                            <img class="info" src="../images/cont01/Btn03/acCont-11.jpg">
+                        </div>
+
+                        <div class="accordeon_click">
+                            <img class="tamClickAcc" src="../images/cont01/Btn03/acClick4.jpg">
+                        </div>
+                        <div class="accordeon_contenido">
+                            <img class="info" src="../images/cont01/Btn03/acCont-12.jpg">
+                        </div>
+
+                        <div class="accordeon_click">
+                            <img class="tamClickAcc" src="../images/cont01/Btn03/acClick5.jpg">
+                        </div>
+                        <div class="accordeon_contenido">
+                            <img class="info" src="../images/cont01/Btn03/acCont-13.jpg">
+                        </div>
+                        
                     </div>
-                    <div>
-                        <div class="cont03 cont_tab_s" id="C1">
-                            <img src="../images/cont01/Btn03/cierre_alternativas_uno.png" class="cls" data-close-id-tab="C1">
-                            <img src="../images/cont01/Btn03/popup_alternativas_uno.png">
-                        </div>
-                        <div class="cont03 cont_tab_s" id="C2">
-                            <img src="../images/cont01/Btn03/cierre_alternativas_dos.png" class="cls" data-close-id-tab="C2">
-                            <img src="../images/cont01/Btn03/popup_alternativas_dos.png">
-                        </div>
-                        <div class="cont03 cont_tab_s" id="C3">
-                            <img src="../images/cont01/Btn03/cierre_alternativas_tres.png" class="cls" data-close-id-tab="C3">
-                            <img src="../images/cont01/Btn03/popup_alternativas_tres.png">
-                        </div>        
-                        <div class="cont03 cont_tab_s" id="C4">
-                            <img src="../images/cont01/Btn03/cierre_alternativas_cuatro.png" class="cls" data-close-id-tab="C4">
-                            <img src="../images/cont01/Btn03/popup_alternativas_cuatro.png">
-                        </div>
-                    </div>
-                    <img src="../images/cont01/Btn03/fondo_alternativas.png">
-                </li>
 
-            </ul>
-        </div>
-
+                </div>
+                <img src="../images/cont01/Btn03/fondo1.jpg">
+            </li>
+        </ul>
     </div>
-    <!--! end of #content -->
+
+  </div>
+  <!--! end of #content -->
 </div>
 <!--! end of #container -->
 

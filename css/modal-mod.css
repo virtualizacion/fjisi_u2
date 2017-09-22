@@ -1,7 +1,7 @@
 .modal{
     max-width: 911px;
     padding: 0;
-    height: 515px;
+    height: 550px;
     background-color: rgba(240,248,255,0);
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -10,10 +10,10 @@
 }
 
 .modal a.close-modal{
-	background: url(../images/cerrar_internas.png) no-repeat center;
-	background-size: 50px 50px;
-	top: 5.5px;
-    right: -18.5px;
-    width: 50px;
-    height: 50px;
+    background: url(../images/cerrar_internas.png) no-repeat center;
+    background-size: 30px 30px;
+    top: -16.5px;
+    right: -15.5px;
+    width: 30px;
+    height: 30px;
 }
