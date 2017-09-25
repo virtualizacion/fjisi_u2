@@ -52,13 +52,17 @@ body{
     margin: 226px 0 0 5px;
     position: absolute;
 }
-.acordeon{
+.btnExtras{
     position: absolute;
-    margin: 90px 0 0 10px;
+    margin: 437px 0 0 738px;
 }
-
-.cont_accordeon{
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+.cls{
     position: absolute;
-    margin-top: 90px;
-    margin-left: 30px;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
 }

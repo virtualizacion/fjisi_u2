@@ -52,3 +52,45 @@ body{
     top: 1px;
     cursor: pointer;
 }
+.btn1{
+    position: absolute;
+    margin: 57px 0 0 564px;
+}
+
+.btn2{
+    position: absolute;
+    margin: 57px 0 0 701px;
+}
+
+.btn3{
+    position: absolute;
+    margin: 166px 0 0 564px;
+}
+
+.btn4{
+    position: absolute;
+    margin: 166px 0 0 702px;
+}
+.btn5{
+    position: absolute;
+    margin: 277px 0 0 564px;
+}
+.btn6{
+    position: absolute;
+    margin: 277px 0 0 702px;
+}
+.btn7{
+    position: absolute;
+    margin: 388px 0 0 564px;
+}
+.btn8{
+    position: absolute;
+    margin: 388px 0 0 702px;
+}
+.cont03{
+    position: absolute;
+    left: 46%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
