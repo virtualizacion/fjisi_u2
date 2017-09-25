@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>copleteSentenceOK</title>
+
+    <meta charset="UTF-8">
+
+    
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- custom css -->
+
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" href="../../css/reto01.css">
+    <link rel="stylesheet" href="../../css/generic.css">
+    <link rel="stylesheet" href="../../css/style_btn.css">
+
+
+    <!-- jQuery -->
+    
+    <script src="bower_components/jquery/dist/jquery.js"></script><!--s-->
+    <!-- jQuery UI-->
+    <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+    <!-- bootstrap.js -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- plugin-->
+    <script src="js/completeSentence.js"></script>
+
+    <script src="../../js/helper_functions.js"></script>
+
+    <script src="../../js/jPages.js"></script>       
+    
+    <script src="../../js/cont01_reto01.js"></script>
+    <!-- main-->
+    <script src="js/index.js"></script>
+</head>
+
+    <body>        
+
+        <div id="container" class="clearfix">
+
+            <div id="content" class="defaults">
+
+                <!-- navigation holder -->
+                <div class="holder"></div>
+
+                <!-- wrapped custom buttons for easier styling -->
+                <div class="customBtns">
+                    <span class="arrowPrev"></span>
+                    <span class="arrowNext"></span>
+                </div>
+
+
+                <div class="black black_not_lert">
+
+                    <div class="cont cont_not_lert" id="C1">
+                        <button class="cls cerrar cls_not_lert"></button>
+                        <img src="../../images/cont01/reto01/fb_reto_1.jpg">
+                    </div>
+
+                    <div class="cont cont_not_lert" id="C2">
+                        <button class="cls cerrar cls_not_lert"></button>
+                        <img src="../../images/cont01/reto01/fb_reto_2.jpg">
+                    </div>
+
+                    <div class="cont cont_not_lert" id="C3">
+                        <button class="cls cerrar cls_not_lert"></button>
+                        <img src="../../images/cont01/reto01/fb_reto_3.jpg">
+                    </div>
+
+                    <div class="cont cont_not_lert" id="C4">
+                        <button class="cls cerrar cls_not_lert"></button>
+                        <img src="../../images/cont01/reto01/fb_reto_4.jpg">
+                    </div>                    
+
+                </div>    
+
+                <!-- item container -->
+                <div class="pgs">
+                    <ul id="itemContainer">
+                        <li>
+
+                            <img src="../../images/cont01/reto01/fondo1.jpg">
+
+                            <div class="btnExtras">
+                                <div class="cajaResalt" >                        
+                                    <button id="crt1" data-id-cont-not-lert="C1" class="op_not_lert tenerCuenta"></button>
+                                    <button id="crt2" data-id-cont-not-lert="C2" class="op_not_lert tenerCuenta"></button>
+                                    <button id="crt3" data-id-cont-not-lert="C3" class="op_not_lert tenerCuenta"></button>
+                                    <button id="incrt" data-id-cont-not-lert="C4" class="op_not_lert tenerCuenta"></button>                                            
+                                </div>
+                            </div>
+
+                            <div class="container-fluid">
+            
+                                <div class="col-xs-12" id="completeSentence"></div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../../images/cont01/reto01/fondo2.jpg"> 
+                        </li>                        
+                    </ul>
+                </div>
+
+            </div>
+            <!--! end of #content -->
+        </div>
+        <!--! end of #container -->
+
+    </body>
+
+</html>

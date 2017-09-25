@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body{
+    /*background: url(../../../images/cont01/reto01/fondo1.jpg) center no-repeat;
+    background-position: -8px -8px;*/
+    font-family: 'PT Sans', sans-serif;
+}
+
+#completeSentence{
+	padding-top: 0px;
+    margin-top: -356px;
+    margin-left: 10px;
+    width: 830px;
+    /* height: 3px; */
+}
+.contSentence{
+	background-color: #f2f2f2;
+    border: 2px solid #9d9d9d;
+    margin-bottom: 5px;
+    padding: 3px;
+    /* border-radius: 5px; */ 
+    height: 90px;
+}	
+.sentence{
+
+}
+.sentence_p{
+
+}
+.words{
+	background-color: #ddd;
+    border: 2px solid #777;	
+}
+.sentence_word{
+    cursor: pointer;
+    /* font-style: inherit; */
+    font-weight: bold;
+}
+
+.sentenceCorrect{
+	border: 2px solid green;
+}
+
+.sentenceIncorrect{
+	border: 2px solid red;
+}
+
