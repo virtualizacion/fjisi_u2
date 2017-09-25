@@ -24,8 +24,8 @@
 }
 .cont02{
     position: absolute;
-    left: 55%;
-    top: 60%;
+    left: 48%;
+    top: 89%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
@@ -45,19 +45,51 @@
 }
 .btn1{
     position: absolute;
-    margin: 400px 0 0 260px;
+    margin: 215px 0 0 82px;
 }
 .btn2{
     position: absolute;
-    margin: 168px 0 0 130px;
+    margin: 215px 0 0 205px;
 }
 .btn3{
     position: absolute;
-    margin: 105px 0 0 435px;
+    margin: 215px 0 0 330px;
+}
+.btn4{
+    position: absolute;
+    margin: 215px 0 0 454px;
+}
+.btn5{
+    position: absolute;
+    margin: 215px 0 0 578px;
+}
+.btn6{
+    position: absolute;
+    margin: 215px 0 0 701px;
+}
+.btn7{
+    position: absolute;
+    margin: 322px 0 0 149px;
+}
+.btn8{
+    position: absolute;
+    margin: 322px 0 0 273px;
+}
+.btn9{
+    position: absolute;
+    margin: 322px 0 0 396px;
+}
+.btn10{
+    position: absolute;
+    margin: 322px 0 0 521px;
+}
+.btn11{
+    position: absolute;
+    margin: 322px 0 0 645px;
 }
 .btnExtras{
     position: absolute;
-    margin: 468px 0 0 625px;
+    margin: 103px 0 0 789px;
 }
 
 body{

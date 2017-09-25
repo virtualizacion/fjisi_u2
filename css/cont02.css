@@ -1,56 +1,36 @@
-body{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: url(../images/cont02/fondo_portadilla.png) no-repeat;
-}
 .cont01{
+    background: url(../images/cont02/fondo_cont02.jpg) no-repeat;
     width: 900px;
     height: 550px;
     padding: 0;
+    overflow: hidden;
 }
 .menuC1{
     width: 680px;
     height: 540px;
     margin: 10px 0 0 175px;
 }
-.btn01-C1{
-    background: url(../images/cont02/portadilla_bnt_uno.png) no-repeat;
-    width: 586px;
-    height: 121px;
+
+.btnMenuCont01{
+    width: 453px;
+    height: 77px;
     cursor: pointer;
-    margin: 140px 0 0 450px;
     position: absolute;
+}
+
+.btn01-C1{
+    background: url(../images/cont02/Boton_1.jpg) no-repeat;
+    margin: 196px 0 0 397px;
 }
 .btn02-C1{
-    background: url(../images/cont02/portadilla_bnt_dos.png) no-repeat;
-    width: 405px;
-    height: 117px;
-    cursor: pointer;
-    margin: 140px 0 0 20px;
-    position: absolute;
+    background: url(../images/cont02/Boton_2.jpg) no-repeat;
+    margin: 269px 0 0 399px;
 }
 .btn03-C1{
-    background: url(../images/cont02/portadilla_bnt_tres.png) no-repeat;
-    width: 405px;
-    height: 119px;
-    cursor: pointer;
-    margin: 280px 0 0 20px;
-    position: absolute;
+    background: url(../images/cont02/Boton_3.jpg) no-repeat;
+    margin: 343px 0 0 397px;
 }
 .btn04-C1{
-    background: url(../images/cont02/portadilla_bnt_cuatro.png) no-repeat;
-    width: 405px;
-    height: 105px;
-    cursor: pointer;
-    margin: 280px 0 0 450px;
-    position: absolute;
-}
-.btn05-C1{
-    background: url(../images/cont02/portadilla_bnt_cinco.png) no-repeat;
-    width: 405px;
-    height: 105px;
-    cursor: pointer;
-    margin: 420px 0 0 20px;
-    position: absolute;
+    background: url(../images/cont02/Boton_4.jpg) no-repeat;
+    margin: 416px 0 0 397px;
 }

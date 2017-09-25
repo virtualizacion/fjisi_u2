@@ -21,7 +21,6 @@
     /*margin-left: 81%;
     margin-top: -4px;*/
 }
-
 .telonCont {
     background: url(../images/telon.png) no-repeat;
     width: 875px;
@@ -35,6 +34,13 @@
 /*estilo boton tener en cuenta abre ventana*/
 .tenerCuenta{
     background: url(../images/tenerCuenta.png) no-repeat center;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    border: 0px;
+}
+.importante{
+    background: url(../images/icono_importante.png) no-repeat center;
     background-size: 40px 40px;
     width: 40px;
     height: 40px;
