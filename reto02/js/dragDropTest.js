@@ -157,7 +157,7 @@
 		}
 
 		this.renderButtonValidate = function(){
-			return '<div class="col-md-12 text-left">'+
+			return '<div class="col-xs-12 text-left">'+
 						'<button id="btn_validate_dragDropTest" class="btn_validate_dragDrop">'+settings.contButtonValidate+'</button>'+
 					'</div>';
 		}

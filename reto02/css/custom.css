@@ -37,7 +37,7 @@ body{
 /*los arrastrables*/
 .draggable{
 	font-size: 13px;
-	color: #fadedc;
+	color: #fff;;
 	cursor: pointer;
 	z-index: 2;
 }

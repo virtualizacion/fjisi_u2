@@ -9,6 +9,11 @@
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <!-- custom css -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <link rel="stylesheet" href="../css/reto02.css">
+    <link rel="stylesheet" href="../css/generic.css">
+    <link rel="stylesheet" href="../css/style_btn.css">
+
     <!-- jQuery -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <!-- jQuery UI-->
@@ -18,46 +23,116 @@
     <script src="js/helper_functions.js"></script>
     <!-- plugin-->
     <script src="js/dragDropTest.js"></script>
+
+    <script src="../js/helper_functions.js"></script>
+    <script src="../js/jPages.js"></script>           
+    <script src="../js/cont02_reto02.js"></script>
+
     <!-- main-->
     <script src="js/index.js"></script>
 </head>
 
     <body>
 
-        <div class="container-fluid">
-            
-            <div id="dragDropTest"></div>
+        <div id="container" class="clearfix">
 
-            <div class="blackout blackoutReto">
+            <div id="content" class="defaults">
 
-                <!-- INSTRUCCIÓN--> 
-                <div class="instruccion instruccionReto">
-                    <div class="rowInstruccion">
-                        <button class="cerrar"></button>
+                <!-- navigation holder -->
+                <div class="holder"></div>
+
+                <!-- wrapped custom buttons for easier styling -->
+                <div class="customBtns">
+                    <span class="arrowPrev"></span>
+                    <span class="arrowNext"></span>
+                </div>
+
+
+                <div class="black black_not_lert">
+
+                    <div class="cont cont_not_lert" id="C1">
+                        <button class="cls cerrar cls_not_lert"></button>
+                        <img src="../images/cont01/reto01/fb_reto_1.jpg">
                     </div>
-                    <p class="">Antes de finalizar, pongamos a prueba nuevamente el conocimiento adquirido a través de un ejercicio práctico. Relacione cada uno de los conceptos con su correspondiente definción.</p>
-                </div>
 
-                <!-- RETROALIMENTACIONES -->
-                <div class="retroalimentacion correcto">
-                    <h2>¡Buen trabajo!</h2>
-                    <p align="justify">Realizó la asociación correctamente. Recuerde el concepto y téngalo presente al momento de llevar a cabo su labor investigativa.</p>
-                </div>
+                    <div class="cont cont_not_lert" id="C2">
+                        <button class="cls cerrar cls_not_lert"></button>
+                        <img src="../images/cont01/reto01/fb_reto_2.jpg">
+                    </div>
 
-                <div class="retroalimentacion incorrecto">
-                    <h2>Incorrecto</h2>
-                    <p>Parece que falta un poco de claridad sobre el método y metodología de la investigación cuantitativa y cualitativa. Le recomendamos revisar nuevamente los contenidos para aclarar dudas.</p>                
-                </div>
+                    <div class="cont cont_not_lert" id="C3">
+                        <button class="cls cerrar cls_not_lert"></button>
+                        <img src="../images/cont01/reto01/fb_reto_3.jpg">
+                    </div>
 
-                <div class="retroalimentacion otro_intento">
-                    <h2>Intente nuevamente</h2>
-                    <p>Parece que falta un poco de claridad sobre el método y metodología de la investigación cuantitativa y cualitativa. Le recomendamos revisar nuevamente los contenidos para aclarar dudas.</p>
-                    <div class="buttonContainer"><button class="btnFeedback-revisar">Revisar</button></div>
+                    <div class="cont cont_not_lert" id="C4">
+                        <button class="cls cerrar cls_not_lert"></button>
+                        <img src="../images/cont01/reto01/fb_reto_4.jpg">
+                    </div>                    
+
+                </div>    
+
+                <!-- item container -->
+                <div class="pgs">
+                    <ul id="itemContainer">
+                        <li>
+
+                            <!--<img src="../images/cont01/reto01/fondo1.jpg">-->
+
+                            <div class="btnExtras">
+                                <div class="cajaResalt" >                        
+                                    <button id="crt1" data-id-cont-not-lert="C1" class="op_not_lert tenerCuenta"></button>
+                                    <button id="crt2" data-id-cont-not-lert="C2" class="op_not_lert tenerCuenta"></button>
+                                    <button id="crt3" data-id-cont-not-lert="C3" class="op_not_lert tenerCuenta"></button>
+                                    <button id="incrt" data-id-cont-not-lert="C4" class="op_not_lert tenerCuenta"></button>                                            
+                                </div>
+                            </div>
+
+                            <div class="container-fluid">
+            
+                                <div id="dragDropTest"></div>
+
+                                <div class="blackout blackoutReto">
+
+                                    <!-- INSTRUCCIÓN--> 
+                                    <div class="instruccion instruccionReto">
+                                        <div class="rowInstruccion">
+                                            <button class="cerrar"></button>
+                                        </div>
+                                        <p class="">Antes de finalizar, pongamos a prueba nuevamente el conocimiento adquirido a través de un ejercicio práctico. Relacione cada uno de los conceptos con su correspondiente definción.</p>
+                                    </div>
+
+                                    <!-- RETROALIMENTACIONES -->
+                                    <div class="retroalimentacion correcto">
+                                        <h2>¡Buen trabajo!</h2>
+                                        <p align="justify">Realizó la asociación correctamente. Recuerde el concepto y téngalo presente al momento de llevar a cabo su labor investigativa.</p>
+                                    </div>
+
+                                    <div class="retroalimentacion incorrecto">
+                                        <h2>Incorrecto</h2>
+                                        <p>Parece que falta un poco de claridad sobre el método y metodología de la investigación cuantitativa y cualitativa. Le recomendamos revisar nuevamente los contenidos para aclarar dudas.</p>                
+                                    </div>
+
+                                    <div class="retroalimentacion otro_intento">
+                                        <h2>Intente nuevamente</h2>
+                                        <p>Parece que falta un poco de claridad sobre el método y metodología de la investigación cuantitativa y cualitativa. Le recomendamos revisar nuevamente los contenidos para aclarar dudas.</p>
+                                        <div class="buttonContainer"><button class="btnFeedback-revisar">Revisar</button></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../images/cont02/reto02/OVA_U2-42.jpg"> 
+                        </li>                        
+                    </ul>
                 </div>
 
             </div>
-
-        </div>        
+            <!--! end of #content -->
+        </div>
+        <!--! end of #container -->
 
     </body>
 
