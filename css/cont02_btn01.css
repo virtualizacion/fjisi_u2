@@ -55,37 +55,60 @@ body{
 .btn1{
     position: absolute;
     margin: 57px 0 0 564px;
+    background-image:url(../images/cont02/Btn01/Btn1.jpg);
+    width: 115px;
+    height: 90px;
 }
-
 .btn2{
     position: absolute;
     margin: 57px 0 0 701px;
+    background-image:url(../images/cont02/Btn01/Btn2.jpg);
+    width: 115px;
+    height: 90px;
 }
 
 .btn3{
     position: absolute;
     margin: 166px 0 0 564px;
+    background-image:url(../images/cont02/Btn01/Btn3.jpg);
+    width: 115px;
+    height: 90px
 }
 
 .btn4{
     position: absolute;
     margin: 166px 0 0 702px;
+    background-image:url(../images/cont02/Btn01/Btn4.jpg);
+    width: 115px;
+    height: 90px
 }
 .btn5{
     position: absolute;
     margin: 277px 0 0 564px;
+    background-image:url(../images/cont02/Btn01/Btn5.jpg);
+    width: 115px;
+    height: 90px
 }
 .btn6{
     position: absolute;
     margin: 277px 0 0 702px;
+    background-image:url(../images/cont02/Btn01/Btn6.jpg);
+    width: 115px;
+    height: 90px
 }
 .btn7{
     position: absolute;
     margin: 388px 0 0 564px;
+    background-image:url(../images/cont02/Btn01/Btn7.jpg);
+    width: 115px;
+    height: 90px
 }
 .btn8{
     position: absolute;
     margin: 388px 0 0 702px;
+    background-image:url(../images/cont02/Btn01/Btn8.jpg);
+    width: 115px;
+    height: 90px
 }
 .cont03{
     position: absolute;
@@ -94,3 +117,8 @@ body{
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
+
+
+
+
+  
